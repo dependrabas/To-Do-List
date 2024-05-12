@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 50px;
+    background-color: rgb(213, 193, 193);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#addBtn{
+    position: fixed;
+    border-radius: 3px;
+    right: 2px;
+    top: 37px;
+    background-color: #e5decc;
+    color: rgb(13, 14, 14);
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+}
+
+.note {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(217, 141, 28);
+    margin: 15px;
+    margin-top: 55px;
+}
+
+.tool {
+    width: 100%;
+    background-color: #f5ca5c;
+    color: rgb(17, 16, 16);
+    padding: 5px;
+    display: flex;
+    justify-content: end;
+}
+
+.tool i {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.note textarea {
+    border: none;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.note textarea:focus {
+    border: 0;
+    outline: 0;
+}
+#mainhead{
+    text-align: center;
+    text-decoration: none;
+    color:rgb(233, 94, 19);
+}
+.tool i:hover {
+    color: rgb(154, 72, 128);
+    cursor: pointer;
+}
+#bgchanger {
+    /* Your existing styles for the note */
+
+    /* Hover effect styles */
+    transition: background-color 0.3s ease;
+}
+
+#bgchanger:hover {
+    background-color: lightblue;
+}
